@@ -1,0 +1,12 @@
+/local-config.php
+/staging-config.php
+
+/content/mu-plugins/*
+/content/plugins/*
+/content/uploads/*
+
+!/content/mu-plugins/index.php
+!/content/plugins/index.php
+!/content/uploads/index.php
+
+.DS_Store
