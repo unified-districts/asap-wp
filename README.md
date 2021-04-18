@@ -19,23 +19,23 @@ In most cases, the default root installation of WordPress is easier to debug and
 Local PHP and MYSQL server (e.g., MAMP)
 
 ## Installation
-  1. Clone including submodule:
+  1. Clone including submodule:  
     ```
     git clone --recursive https://github.com/geekster909/asap-wp.git <project-name>
     ```
 
-  2. _If_ you cloned without `--recursive`, you must manually initialize the submodule:
+  2. _If_ you cloned without `--recursive`, you must manually initialize the submodule:  
     ```
     git clone https://github.com/geekster909/asap-wp.git <project-name>
     git submodule update --init
     ```
 
-  3. Remove remote origin repository:
+  3. Remove remote origin repository:  
     ```
     git remote rm origin
     ```
 
-  4. Update remote origin to your new repository:
+  4. Update remote origin to your new repository:  
     ```
     git remote add origin <url>
     ```
@@ -54,27 +54,27 @@ Update database configurations based on environment:
 
 ## Updating WordPress
 ### Submodule
-  1. Check current version of submodule (WordPress):
+  1. Check current version of submodule (WordPress):  
   ```
   git submodule status
   ```
-  2. Change into submodule directory:
+  2. Change into submodule directory:  
   ```
   cd wp
   ```
-  3. Fetch tags (versions of WordPress):
+  3. Fetch tags (versions of WordPress):  
   ```
   git fetch --tags
   ```
-  4. Show tags (versions of WordPress):
+  4. Show tags (versions of WordPress):  
   ```
   git tag
   ```
-  5. Checkout tag to update working version:
+  5. Checkout tag to update working version:  
   ```
   git checkout <tag>
   ```
-  6. Commit update:
+  6. Commit update:  
   ```
   cd ..
   git commit -m "WordPress Update <tag>"
@@ -83,7 +83,7 @@ Update database configurations based on environment:
 ### Root
   1. [Download the latest version of WordPress](https://wordpress.org/latest.zip)
   2. Unzip the file
-  3. Copy the resulting directory into the root of this repository
+  3. Copy the resulting directory into the root of this repository and overwrite old files
   4. Commit the changes
 
 ## Inspiration
