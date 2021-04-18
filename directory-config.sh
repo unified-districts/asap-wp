@@ -19,3 +19,5 @@ else
 fi
 
 echo "if ( !defined('ABSPATH') ) define('ABSPATH', ${path}); require_once(ABSPATH . 'wp-settings.php');" >> $file
+
+echo "Directory set successfully"
