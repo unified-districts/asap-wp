@@ -21,12 +21,12 @@ Local PHP and MYSQL server (e.g., MAMP)
 ## Installation
   1. Clone including submodule:  
     ```
-    git clone --recursive https://github.com/geekster909/asap-wp.git <project-name>
+    git clone --recursive https://github.com/530medialab/asap-wp.git <project-name>
     ```
 
   2. _If_ you cloned without `--recursive`, you must manually initialize the submodule:  
     ```
-    git clone https://github.com/geekster909/asap-wp.git <project-name>
+    git clone https://github.com/530medialab/asap-wp.git <project-name>
     git submodule update --init
     ```
 
